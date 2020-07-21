@@ -1,10 +1,15 @@
 # VAGRANT
 
+## About Vagrant
+- Getting started => [vagrantup.com/intro](https://www.vagrantup.com/intro/getting-started)
+- Vagrant cloud => [vagrantup.com/boxes](https://app.vagrantup.com/boxes/search)
+- Vagrant docs => [vagrantup.com/docs](https://www.vagrantup.com/docs)
+
 ## Vagrant Main Commands
 
 ### new vagrantfile
 ```
-vagrant init
+vagrant init 'some_machine'
 ```
 
 ### machine status
@@ -49,7 +54,7 @@ vagrant ssh
 
 or
 
-vagrant ssh -i your_private_key vagrant@your_machine
+vagrant ssh -i 'your_private_key' vagrant@'your_machine'
 ```
 
 ### list box
