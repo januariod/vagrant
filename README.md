@@ -1,18 +1,18 @@
-# VAGRANT
+## VAGRANT
 
-## About Vagrant
+### About Vagrant
 - Getting started => [vagrantup.com/intro](https://www.vagrantup.com/intro/getting-started)
 - Vagrant cloud => [vagrantup.com/boxes](https://app.vagrantup.com/boxes/search)
 - Vagrant docs => [vagrantup.com/docs](https://www.vagrantup.com/docs)
 
-## Vagrant Main Commands
+### Vagrant Main Commands
 
-### new vagrantfile
+#### new vagrantfile
 ```
 vagrant init 'some_machine'
 ```
 
-### machine status
+#### machine status
 ```
 vagrant status
 
@@ -21,32 +21,32 @@ or
 vagrant global status (--prune)
 ```
 
-### start
+#### start
 ```
 vagrant up
 ```
 
-### provision
+#### provision
 ```
 vagrant provision
 ```
 
-### stop
+#### stop
 ```
 vagrant halt
 ```
 
-### reload machine
+#### reload machine
 ```
 vagrant reload
 ```
 
-### destroy/delete
+#### destroy/delete
 ```
 vagrant destroy (-f)
 ```
 
-### ssh
+#### ssh
 ```
 vagrant ssh-config
 
@@ -57,26 +57,26 @@ or
 vagrant ssh -i 'your_private_key' vagrant@'your_machine'
 ```
 
-### list box
+#### list box
 ```
 vagrant box list
 ```
 
-### destroy machine
+#### destroy machine
 ```
 vagrant destroy -f
 ```
 
-## Puppet Main Commands
+### Puppet Main Commands
 
-### run puppet
+#### run puppet
 ```
 sudo puppet apply
 ```
 
-## Ansible Main Commands
+### Ansible Main Commands
 
-### run ansible
+#### run ansible
 ```
 ansible-playbook -i /vagrant/configs/ansible/hosts /vagrant/configs/ansible/playbook.yml
 ```
